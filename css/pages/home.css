@@ -1,86 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-
-:root {
-  --primary-theme-color: #047aed;
-  --secondary-theme-color: #1c3fa8;
-  --dark-theme-color: #002240;
-  --light-theme-color: #f4f4f4;
-}
-
 /*-----------------------------------------
-/   THEME  
-/----------------------------------------*/
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-*:focus {
-  outline: none;
-}
-
-body {
-  font-family: "Lato", "sans-serif";
-  color: #333;
-  line-height: 1, 6;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-h1,
-h2 {
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 10px 0;
-}
-
-p {
-  margin: 10px 0;
-}
-
-img {
-  width: 100%;
-}
-
-/*-----------------------------------------
-/   NAVBAR  
-/----------------------------------------*/
-
-.navbar {
-  background-color: var(--primary-theme-color);
-  color: #fff;
-  height: 70px;
-}
-
-.navbar .flex {
-  justify-content: space-between;
-}
-
-.navbar ul {
-  display: flex;
-}
-
-.navbar a {
-  color: #fff;
-  padding: 10px;
-  margin: 10px;
-}
-
-.navbar a:hover {
-  border-bottom: 2px solid #fff;
-}
-
-/*-----------------------------------------
-/   LANDING-SHOWCASE  
+/   SHOWCASE  
 /----------------------------------------*/
 
 .showcase {
@@ -142,8 +61,8 @@ img {
 }
 
 /*-----------------------------------------
-/   LANDING-STATS  
-/----------------------------------------*/
+  /   STATS  
+  /----------------------------------------*/
 
 .stats {
   padding-top: 100px;
@@ -159,8 +78,8 @@ img {
 }
 
 /*-----------------------------------------
-/   LANDING-CLI  
-/----------------------------------------*/
+  /   CLI  
+  /----------------------------------------*/
 
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
@@ -173,16 +92,16 @@ img {
 }
 
 /*-----------------------------------------
-/   LANDING-CLOUD  
-/----------------------------------------*/
+  /   CLOUD  
+  /----------------------------------------*/
 
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
 }
 
 /*-----------------------------------------
-/   LANDING-LANGUAGES  
-/----------------------------------------*/
+  /   LANGUAGES  
+  /----------------------------------------*/
 
 .languages .flex {
   flex-wrap: wrap;
@@ -204,8 +123,8 @@ img {
 }
 
 /*-----------------------------------------
-/   FOOTER  
-/----------------------------------------*/
+  /   FOOTER  
+  /----------------------------------------*/
 
 .footer .social a {
   margin: 0 10px;
